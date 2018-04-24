@@ -51,3 +51,12 @@ digits = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/o
 
 # Print out `digits`
 print(digits)
+
+#Analysis 5
+#use describe function to output data description
+# Import the `pandas` library as `pd`
+import pandas as pd
+
+# Load in the data with `read_csv()`
+digits = data/iris.csv
+data/iris.csv.describe()
