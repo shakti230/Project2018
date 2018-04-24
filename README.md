@@ -121,8 +121,8 @@ http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 
 
 
-
-
-
-##format iris data and print on screen
+3. Investigation
+Download the data set and write some Python code to investigate it.
+Download iris data
+Format iris data and print on screen
 
