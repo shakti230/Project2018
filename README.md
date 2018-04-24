@@ -127,6 +127,10 @@ Download iris data
 Format iris data and print on screen
 Analysis 1 - print out iris data on screen
 Analysis 2 - compile stats using teh describe function
+Analysis 3 - Using labelnames to translate the species names into integers
+Analysis 4 - Import the `pandas` library to displate iris data
+Analysis 5 - using the  describe function allows me to compile summary statistics
+Analysis 6 - calculate the mean
 
 4. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
