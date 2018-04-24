@@ -104,6 +104,25 @@ The IRIS dataset refers to three classes of 50 instances each where each class r
 
 and the fifth attribute is the predictive attributes which is the class attribute that means each instance also includes an identifying class name, each of which is one of the following: IRIS Setosa, IRIS Versicolour, or IRIS Virginica. The expectation from mining IRIS data set would be discovering patterns from examining petal and sepal size of the IRIS plant and how the prediction was made from analyzing the pattern to form the class of IRIS plant. By using this pattern and classification, the unknown data can be predicted more precisely in upcoming years. 
 
+Question 2 - References
+
+http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
+https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+http://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+http://www.statlab.uni-heidelberg.de/data/iris/
+https://en.wikipedia.org/wiki/Ronald_Fisher
+https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset
+https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
+http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
+
+
+
+
+
 
 ##format iris data and print on screen
 
