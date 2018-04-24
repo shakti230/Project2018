@@ -2,7 +2,7 @@
 Programming and Scripting - Mary McDonagh
 
 ## Table of Contents
-## 1.0 Problem statement	2
+### 1.0 Problem statement	2
 ## 1.1 Project Plan	2
 ## 2.0 Research	3
 ## 3. References	7
