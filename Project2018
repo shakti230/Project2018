@@ -23,3 +23,16 @@ for line in f:             # Load in each line from the file.
         data.append(vals[:-1])              # Add data vector
         labels.append(labelnames[vals[4]])  # Add numerical label
 f.close()                  # Close the file
+
+
+#Analysis 4
+#Ref: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
+# Import the `pandas` library as `pd`
+import pandas as pd
+
+# Load in the data with `read_csv()`
+digits = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra",
+                     header=None)
+
+# Print out `digits`
+print(digits)
