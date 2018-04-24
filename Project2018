@@ -1,0 +1,9 @@
+#Mary McDonagh, 20-03-2018
+# url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+# ref: http://www.astro.up.pt/~sousasag/Python_For_Astronomers/PythonScientific-simple.pdf
+
+print ("Petal Length", "Petal Width", "Sepal Length", "Sepal Width")
+  
+with open("data/iris.csv") as x:
+     for line in x:
+        print ("{:>12}{:>12}{:>13}{:>12}".format(line.split(',')[1],line.split(',')[2],line.split(','[3]))
