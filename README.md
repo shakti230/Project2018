@@ -125,6 +125,8 @@ http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 Download the data set and write some Python code to investigate it.
 Download iris data
 Format iris data and print on screen
+Analysis 1 - print out iris data on screen
+Analysis 2 - compile stats using teh describe function
 
 4. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
