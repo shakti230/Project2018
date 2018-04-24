@@ -2,14 +2,14 @@
 Programming and Scripting - Mary McDonagh
 
 ## Table of Contents
-1.0 Problem statement	2
-1.1 Project Plan	2
-2.0 Research	3
-2. References	7
-3. Investigation	7
-4. Calculations	7
-4.1 Why use Python?	7
-5. Summary of Investigation	8
+## 1.0 Problem statement	2
+## 1.1 Project Plan	2
+## 2.0 Research	3
+## 3. References	7
+## 4. Investigation	7
+## 5. Calculations	7
+### 5.1 Why use Python?	7
+## 6. Summary of Investigation	8
 
 ## 1.0 Problem statement
 The following project concerns the well-known Fisher’s Iris data set [3]. The project
@@ -101,7 +101,7 @@ The IRIS dataset refers to three classes of 50 instances each where each class r
 
 and the fifth attribute is the predictive attributes which is the class attribute that means each instance also includes an identifying class name, each of which is one of the following: IRIS Setosa, IRIS Versicolour, or IRIS Virginica. The expectation from mining IRIS data set would be discovering patterns from examining petal and sepal size of the IRIS plant and how the prediction was made from analyzing the pattern to form the class of IRIS plant. By using this pattern and classification, the unknown data can be predicted more precisely in upcoming years. 
 
-## 2. References
+## 3. References
 
 http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
 https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
@@ -118,7 +118,7 @@ http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 
 
 
-## 3. Investigation
+## 4. Investigation
 Download the data set and write some Python code to investigate it.
 Download iris data
 Format iris data and print on screen
@@ -129,7 +129,7 @@ Analysis 4 - Import the `pandas` library to displate iris data
 Analysis 5 - using the  describe function allows me to compile summary statistics
 Analysis 6 - calculate the mean
 
-## 4. Calculations
+## 5. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
 
-## 5 Investigation
+## 6 Summary of Investigation
