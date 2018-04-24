@@ -1,7 +1,7 @@
 # Project2018
 Programming and Scripting - Mary McDonagh
 
-##Table of Contents
+## Table of Contents
 1.0 Problem statement	2
 1.1 Project Plan	2
 2.0 Research	3
@@ -11,16 +11,16 @@ Programming and Scripting - Mary McDonagh
 4.1 Why use Python?	7
 5. Summary of Investigation	8
 
-##1.0 Problem statement
+## 1.0 Problem statement
 The following project concerns the well-known Fisher’s Iris data set [3]. The project
 entails you researching the data set, and then writing documentation and code in the
 Python programming language [1] based on that research.
 
-##1.1 Project Plan
+## 1.1 Project Plan
 
 insert image
 
-2.0 Research
+## 2.0 Research
 Research background information about the data set and write a summary about
 it.
 
@@ -42,19 +42,16 @@ This data sets consists of 3 different types of irises' (Setosa, Versicolour, an
 
 The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length	and Petal Width. The below plot uses the first two features.
 
-
-
-
-# Code source: Gaël Varoquaux
-# Modified for documentation by Jaques Grobler
-# License: BSD 3 clause
+#Code source: Gaël Varoquaux
+#Modified for documentation by Jaques Grobler
+#License: BSD 3 clause
 
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn import datasets
 from sklearn.decomposition import PCA
 
-# import some data to play with
+#import some data to play with
 iris = datasets.load_iris()
 X = iris.data[:, :2]  # we only take the first two features.
 y = iris.target
@@ -65,7 +62,7 @@ y_min, y_max = X[:, 1].min() - .5, X[:, 1].max() + .5
 plt.figure(2, figsize=(8, 6))
 plt.clf()
 
-# Plot the training points
+#Plot the training points
 plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.Set1,
             edgecolor='k')
 plt.xlabel('Sepal length')
@@ -76,8 +73,8 @@ plt.ylim(y_min, y_max)
 plt.xticks(())
 plt.yticks(())
 
-# To getter a better understanding of interaction of the dimensions
-# plot the first three PCA dimensions
+#To getter a better understanding of interaction of the dimensions
+#plot the first three PCA dimensions
 fig = plt.figure(1, figsize=(8, 6))
 ax = Axes3D(fig, elev=-150, azim=110)
 X_reduced = PCA(n_components=3).fit_transform(iris.data)
@@ -104,7 +101,7 @@ The IRIS dataset refers to three classes of 50 instances each where each class r
 
 and the fifth attribute is the predictive attributes which is the class attribute that means each instance also includes an identifying class name, each of which is one of the following: IRIS Setosa, IRIS Versicolour, or IRIS Virginica. The expectation from mining IRIS data set would be discovering patterns from examining petal and sepal size of the IRIS plant and how the prediction was made from analyzing the pattern to form the class of IRIS plant. By using this pattern and classification, the unknown data can be predicted more precisely in upcoming years. 
 
-Question 2 - References
+## 2. References
 
 http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
 https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
@@ -121,7 +118,7 @@ http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 
 
 
-3. Investigation
+## 3. Investigation
 Download the data set and write some Python code to investigate it.
 Download iris data
 Format iris data and print on screen
@@ -132,5 +129,7 @@ Analysis 4 - Import the `pandas` library to displate iris data
 Analysis 5 - using the  describe function allows me to compile summary statistics
 Analysis 6 - calculate the mean
 
-4. Calculations
+## 4. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+
+## 5 Investigation
