@@ -25,6 +25,21 @@ for line in f:             # Load in each line from the file.
 f.close()                  # Close the file
 
 
+#Analysis 3
+# labelnames translates the species names into integers
+labelnames = {"Iris-setosa\n":0,
+             "Iris-versicolor\n":1,
+             "Iris-virginica\n":2}
+data, labels = [], []      # Empty lists for the vectors, labels.
+f = open("data/iris.csv", "r") # Open the data file.
+for line in f:             # Load in each line from the file.
+   vals = line.split(',') # Split the line into individual values
+   if len(vals) == 5:     # Check that there are five columns
+       data.append(vals[:-1])              # Add data vector
+       labels.append(labelnames[vals[4]])  # Add numerical label
+f.close()                  # Close the file
+
+
 #Analysis 4
 #Ref: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
 # Import the `pandas` library as `pd`
