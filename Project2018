@@ -60,3 +60,15 @@ import pandas as pd
 # Load in the data with `read_csv()`
 digits = data/iris.csv
 data/iris.csv.describe()
+
+#Analysis 6
+#Calculate the mean
+# Import the `pandas` library as `pd`
+import pandas as pd
+
+#Reading IRIS Dataset in Pandas Dataframe
+dataset = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra",
+                     header=None)
+
+dataset = pd.read_csv(url)
+print(dataset.head(20))
