@@ -2,14 +2,14 @@
 Programming and Scripting - Mary McDonagh
 
 ## Table of Contents
-### 1.0 Problem statement	2
-## 1.1 Project Plan	2
-## 2.0 Research	3
-## 3. References	7
-## 4. Investigation	7
-## 5. Calculations	7
-### 5.1 Why use Python?	7
-## 6. Summary of Investigation	8
+## 1.0 Problem statement	
+### 1.1 Project Plan	
+## 2.0 Research	
+## 3.0 References	
+## 4.0 Investigation	
+## 5.0 Calculations	
+### 5.1 Why use Python?	
+## 6.0 Summary of Investigation	
 
 ## 1.0 Problem statement
 The following project concerns the well-known Fisher’s Iris data set [3]. The project
