@@ -149,7 +149,7 @@ Displays all rows 150 rows x 5 columns
 
 ![image](https://user-images.githubusercontent.com/36244887/39325470-2c9068ae-498a-11e8-8b22-7031610eb43f.png)
 
-
+![image](https://user-images.githubusercontent.com/36244887/39325553-6e0a5970-498a-11e8-9cb2-1f167c3396b2.png)
 
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
