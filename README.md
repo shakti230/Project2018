@@ -136,6 +136,8 @@ Displays all rows 150 rows x 5 columns
 
 
 #### Analysis 3 - Find out the number of rows and columns in the dataset
+![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
+
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
 #### Analysis 5 - Group data sets by class size
 #### Analysis 6 - Use the describe function to describe each class individually
