@@ -35,8 +35,7 @@ Sir Ronald Aylmer Fisher (17 February 1890 – 29 July 1962), who published as R
 
 The iris data set refers to the length and width of sepal and petal for three northern american species of iris. The data on iris setosa canadensis and iris versicolor has been used by R. A. Fisher to illustrate linear discriminance analysis. The data on iris virginica have been added as an extension.
 
-![
-](https://user-images.githubusercontent.com/36244887/39327253-6c8846e8-498f-11e8-9498-6f4e8067d3db.png)
+![image](https://user-images.githubusercontent.com/36244887/39333778-09e88ee8-49a4-11e8-8126-e8b16a0add30.png)
 
 *Figure 2: Iris setosa, Iris versicolor, Iris virginica*
 
