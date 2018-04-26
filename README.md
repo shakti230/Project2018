@@ -43,6 +43,8 @@ The rows being the samples and the columns being: Sepal Length, Sepal Width, Pet
 
 ![image](https://user-images.githubusercontent.com/36244887/39327332-a066064e-498f-11e8-8963-2ebc12a3df8e.png)
 
+![image](https://user-images.githubusercontent.com/36244887/39330130-82c7a968-4998-11e8-8204-f21892267960.png)
+
 #Code source: Gaël Varoquaux
 #Modified for documentation by Jaques Grobler
 #License: BSD 3 clause
