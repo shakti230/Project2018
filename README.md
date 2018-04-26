@@ -157,6 +157,8 @@ Displays all rows 150 rows x 5 columns
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 ![image](https://user-images.githubusercontent.com/36244887/39325898-4dc48716-498b-11e8-9335-aca29a1780ff.png)
 
+![image](https://user-images.githubusercontent.com/36244887/39325979-91542428-498b-11e8-9682-60795b0c82f8.png)
+
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
 #### Analysis 10 - Display data in histograms to show petal and sepal width and length
 
