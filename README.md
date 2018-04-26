@@ -132,6 +132,9 @@ Displays all rows 150 rows x 5 columns
 
 
 #### Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
+![analysis 2](https://user-images.githubusercontent.com/36244887/39324464-7a7444a8-4987-11e8-86b5-f210aa0c22b7.JPG)
+
+
 #### Analysis 3 - Find out the number of rows and columns in the dataset
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
 #### Analysis 5 - Group data sets by class size
