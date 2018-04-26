@@ -142,6 +142,8 @@ Displays all rows 150 rows x 5 columns
 ![image](https://user-images.githubusercontent.com/36244887/39324990-f355326e-4988-11e8-8672-9c90613c4a0f.png)
 
 #### Analysis 5 - Group data sets by class size
+![image](https://user-images.githubusercontent.com/36244887/39325169-6acfa91e-4989-11e8-88ba-0dd0d08fedc8.png)
+
 #### Analysis 6 - Use the describe function to describe each class individually
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
