@@ -162,8 +162,10 @@ Displays all rows 150 rows x 5 columns
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
 ![image](https://user-images.githubusercontent.com/36244887/39326103-e5b8864e-498b-11e8-9136-fddd929b8f85.png)
 
-#### Analysis 10 - Display data in histograms to show petal and sepal width and length
+#### Analysis 10 - Displat scatter plot matrix to investigate the relationship and dependency
+![image](https://user-images.githubusercontent.com/36244887/39326204-2658892e-498c-11e8-8548-ddc3eded8d62.png)
 
+#### Analysis 11 -  Display data in histograms to show petal and sepal width and length 
 
 ## 5. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
