@@ -160,6 +160,8 @@ Displays all rows 150 rows x 5 columns
 ![image](https://user-images.githubusercontent.com/36244887/39325979-91542428-498b-11e8-9682-60795b0c82f8.png)
 
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
+![image](https://user-images.githubusercontent.com/36244887/39326103-e5b8864e-498b-11e8-9136-fddd929b8f85.png)
+
 #### Analysis 10 - Display data in histograms to show petal and sepal width and length
 
 
