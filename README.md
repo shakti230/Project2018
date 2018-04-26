@@ -147,6 +147,10 @@ Displays all rows 150 rows x 5 columns
 #### Analysis 6 - Use the describe function to describe each class individually
 ![image](https://user-images.githubusercontent.com/36244887/39325318-c91e885a-4989-11e8-9ea6-84d0085cff94.png)
 
+![image](https://user-images.githubusercontent.com/36244887/39325470-2c9068ae-498a-11e8-8b22-7031610eb43f.png)
+
+
+
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
