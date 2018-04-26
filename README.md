@@ -205,3 +205,54 @@ Figure 20
 #### Analysis 4 above - use the describe function to calculate the mean.
 
 ## 6 Summary of Investigation
+
+I downloaded the iris data set to allow me to carry out the following analysis:
+
+### Analysis 1 - print out iris data on screen, display without headers and comma separated
+Upon downloading the iris data set I ran the file using python to display the data as comma separated in columns and rows on screen. I imported the panda library and ran the command for python to read the file and output the data. It also confirmed on the total number of rows and columns - 150 rows x 5 columns. I called the data file to open by defining the URL to where the file was saved at the beginning of the code.
+
+### Analysis 2 - Assign column names to the data set using the column function - sepal-length', 'sepal-width', 'petal-length', 'petal-width'.
+I defined the data file name iris_dataset and used the columns function to name all 5 columns in the file. The output can be seen in Figure 7. 
+
+### Analysis 3 - Find out the number of rows and columns in the dataset
+For analysis 3 I wanted to use python to find out how many rows and columns there were in the data file. I used the shape function to define this information. This confirmed to me that there is 150 rows and 5 columns in the iris data csv file. 
+
+### Analysis 4 - Using the describe function allows me to compile summary statistics such as mean, count, min, max and percentages.
+I wanted to calculate some statistics using the iris data which included the count, mean, std, min, percentages and max. In order to do this I used the describe function to output this data.the output was broken down by sepal/petal width and height for each statistic.  
+
+### Analysis 5 - Group data sets by class size
+Using the groupby function and the class attribute I defined how many groups of each class in the data set existed. Figure 10 displayed the output of this which is 50 groups in each class.
+
+### Analysis 6 - Use the describe function to describe each class individually
+
+### Analysis 6 allocates the describe function to to outline the mean, count, min, max and percentages of each class. Figure 11, 12 and 13 show the output of these statistics. 
+
+### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
+I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Figure 14 shows this graph.
+Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
+Two scatter graphs clearly shows the relationship between the 3 classes for both petal and sepal in figure 15 & 16.
+
+### Analysis 9 - Plot a matrix to display the correlation between the attributes
+Figure 17 displays a correlation matrix. 
+(Ref: https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset)
+Diagonal values and upper triangle are ignored (melted the upper triangle through np.tril and df.where).
+This outlines:
+a high positive correlation between Petal Width and Peta lLength (0.96)
+a high positive correlation between PetalLength and SepalLength (0.87)
+a high positive correlation between PetalWidth and SepalLength (0.81)
+
+We can observe correlations between these main attributes: Petal Width, Petal Length and Sepal Length:
+
+Theory
+1 is total positive linear correlation
+0 is no linear correlation
+−1 is total negative linear correlation
+
+
+### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
+
+Figure 18 outputs a matrix style graphical display of petal and sepal width and length, their relationship and dependency.
+Analysis 11 - Display data in histograms to show petal and sepal width and length
+I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution.
+
+
