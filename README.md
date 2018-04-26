@@ -17,8 +17,8 @@ entails you researching the data set, and then writing documentation and code in
 Python programming language [1] based on that research.
 
 ## 1.1 Project Plan
+![image](https://user-images.githubusercontent.com/36244887/39327184-348b3070-498f-11e8-8b6a-dfc27271ecf2.png)
 
-insert image
 
 ## 2.0 Research
 Research background information about the data set and write a summary about
