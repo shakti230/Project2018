@@ -1,5 +1,22 @@
 #Mary McDonagh, 20-03-2018
 #Written in Anaconda navigator jupyter
+#References
+#http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
+#https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+#http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+#http://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
+#http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+#http://www.statlab.uni-heidelberg.de/data/iris/
+#https://en.wikipedia.org/wiki/Ronald_Fisher
+#https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset
+#https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+#http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+#https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
+#http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
+#https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+#www.kaggle.com
+#https://www.kaggle.com/xgwong0815/python-data-visualizations-on-iris?scriptVersionId=418035
+
 
 #import all required libraries
 import matplotlib.pyplot as plt
