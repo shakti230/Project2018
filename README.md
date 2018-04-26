@@ -41,6 +41,8 @@ This data sets consists of 3 different types of irises' (Setosa, Versicolour, an
 
 The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width. The below plot uses the first two features.
 
+![image](https://user-images.githubusercontent.com/36244887/39327332-a066064e-498f-11e8-8963-2ebc12a3df8e.png)
+
 #Code source: Gaël Varoquaux
 #Modified for documentation by Jaques Grobler
 #License: BSD 3 clause
