@@ -139,6 +139,8 @@ Displays all rows 150 rows x 5 columns
 ![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
 
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
+![image](https://user-images.githubusercontent.com/36244887/39324990-f355326e-4988-11e8-8672-9c90613c4a0f.png)
+
 #### Analysis 5 - Group data sets by class size
 #### Analysis 6 - Use the describe function to describe each class individually
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
