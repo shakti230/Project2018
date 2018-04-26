@@ -1,74 +1,93 @@
 #Mary McDonagh, 20-03-2018
-# Analysis 1
-#url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
-# ref: http://www.astro.up.pt/~sousasag/Python_For_Astronomers/PythonScientific-simple.pdf
+#Written in Anaconda navigator jupyter
 
-print ("Petal Length", "Petal Width", "Sepal Length", "Sepal Width")
-  
-with open("data/iris.csv") as x:
-     for line in x:
-        print ("{:>12}{:>12}{:>13}{:>12}".format(line.split(',')[1],line.split(',')[2],line.split(','[3]))
-
-
-#Analysis 2
-# labelnames translates the species names into integers
-labelnames = {"Iris-setosa\n":0, 
-              "Iris-versicolor\n":1, 
-              "Iris-virginica\n":2}
-data, labels = [], []      # Empty lists for the vectors, labels.
-f = open("data/iris.csv", "r") # Open the data file.
-for line in f:             # Load in each line from the file. 
-    vals = line.split(',') # Split the line into individual values
-    if len(vals) == 5:     # Check that there are five columns
-        data.append(vals[:-1])              # Add data vector
-        labels.append(labelnames[vals[4]])  # Add numerical label
-f.close()                  # Close the file
-
-
-#Analysis 3
-# labelnames translates the species names into integers
-labelnames = {"Iris-setosa\n":0,
-             "Iris-versicolor\n":1,
-             "Iris-virginica\n":2}
-data, labels = [], []      # Empty lists for the vectors, labels.
-f = open("data/iris.csv", "r") # Open the data file.
-for line in f:             # Load in each line from the file.
-   vals = line.split(',') # Split the line into individual values
-   if len(vals) == 5:     # Check that there are five columns
-       data.append(vals[:-1])              # Add data vector
-       labels.append(labelnames[vals[4]])  # Add numerical label
-f.close()                  # Close the file
-
-
-#Analysis 4
-#Ref: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
-# Import the `pandas` library as `pd`
+In [13]:
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
+from pandas.plotting import scatter_matrix
+In [14]:
+iris_dataset = pd.read_csv('C:/Users/sam2/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Anaconda3 (64-bit)/iris_data.csv', header=None, sep=',')
+iris_dataset
+Out[14]:
 
-# Load in the data with `read_csv()`
-digits = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra",
-                     header=None)
+150 rows × 5 columns
+In [15]:
+# Assigning column names
+iris_dataset.columns=['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
+iris_dataset.head()
 
-# Print out `digits`
-print(digits)
 
-#Analysis 5
-#use describe function to output data description
-# Import the `pandas` library as `pd`
-import pandas as pd
+sepal-length
+sepal-width
+petal-length
+petal-width
+class
 
-# Load in the data with `read_csv()`
-digits = data/iris.csv
-data/iris.csv.describe()
+In [16]:
+# giving number of rows and columns 
+iris_dataset.shape
+Out[16]:
+(150, 5)
 
-#Analysis 6
-#Calculate the mean
-# Import the `pandas` library as `pd`
-import pandas as pd
+In [17]:
+iris_dataset.describe()
 
-#Reading IRIS Dataset in Pandas Dataframe
-dataset = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/optdigits.tra",
-                     header=None)
+In [18]:
+#iris_dataset
 
-dataset = pd.read_csv(url)
-print(dataset.head(20))
+In [19]:
+iris_dataset.groupby('class').size()
+
+Out[19]:
+class
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+dtype: int64
+
+In [20]:
+#classwise
+iris_dataset[iris_dataset['class']=='Iris-setosa'].describe()
+
+In [21]:
+iris_dataset[iris_dataset['class']=='Iris-versicolor'].describe()
+In [22]:
+iris_dataset[iris_dataset['class']=='Iris-virginica'].describe()
+
+In [23]:
+iris_dataset.plot(kind = 'box', subplots = True, layout = (2, 2), sharey = False)
+plt.show()
+
+ 
+In [24]:
+import seaborn as sns
+
+In [25]:
+# relationship between the two attributes ( sepal) for each class
+
+sns.set_style('whitegrid')
+sns.FacetGrid(iris_dataset, hue = 'class', size = 6)\
+.map(plt.scatter, 'sepal-length', 'sepal-width')\
+.add_legend()
+plt.show()
+ 
+In [26]:
+# relationship between the two attributes ( petal) for each class
+sns.set_style('whitegrid')
+sns.FacetGrid(iris_dataset, hue = 'class', size = 6)\.map(plt.scatter, 'petal-length', 'petal-width')\.add_legend()plt.show()
+
+ 
+In [27]:
+# correlation between the attributes
+plt.figure(figsize=(7,5)) 
+sns.heatmap(iris_dataset.corr(),annot=True,cmap='RdYlGn_r') 
+plt.show()
+
+ 
+In [31]:
+from pandas.plotting import scatter_matrix
+scatter_matrix(iris_dataset)
+plt.show()
+
+ 
