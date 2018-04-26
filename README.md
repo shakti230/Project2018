@@ -116,6 +116,7 @@ http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
 https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
 http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+https://www.kaggle.com/
 
 
 
