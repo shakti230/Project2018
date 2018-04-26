@@ -1,70 +1,47 @@
 #Mary McDonagh, 20-03-2018
 #Written in Anaconda navigator jupyter
 
-In [13]:
+#import all required libraries
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from pandas.plotting import scatter_matrix
-In [14]:
+
+#Analysis 1
+#Use the absolute link to irisdata csv file to view data
 iris_dataset = pd.read_csv('C:/Users/sam2/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Anaconda3 (64-bit)/iris_data.csv', header=None, sep=',')
 iris_dataset
-Out[14]:
 
-150 rows × 5 columns
-In [15]:
-# Assigning column names
+#Analysis 2
+#Assigning column names to iris data using the variable class
 iris_dataset.columns=['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 iris_dataset.head()
 
-
-sepal-length
-sepal-width
-petal-length
-petal-width
-class
-
-In [16]:
-# giving number of rows and columns 
+#Analysis 3
+#Outlining the number of rows and columns in the iris data set
 iris_dataset.shape
-Out[16]:
-(150, 5)
 
-In [17]:
+#Analysis 4
+#Describe the dataset e.g. list mean, count, min, max and percetages
 iris_dataset.describe()
 
-In [18]:
-#iris_dataset
-
-In [19]:
+#Analysis 5
+#iris_dataset group by class size to define the number of rows in each class
 iris_dataset.groupby('class').size()
 
-Out[19]:
-class
-Iris-setosa        50
-Iris-versicolor    50
-Iris-virginica     50
-dtype: int64
-
-In [20]:
-#classwise
+#Analysis 6
+#Describe each class individually (mean, count, min, max etc) 
 iris_dataset[iris_dataset['class']=='Iris-setosa'].describe()
-
-In [21]:
 iris_dataset[iris_dataset['class']=='Iris-versicolor'].describe()
-In [22]:
 iris_dataset[iris_dataset['class']=='Iris-virginica'].describe()
 
-In [23]:
+#Analysis 7
+#Use a box plot to display the iris data set sepal/petal width and length
 iris_dataset.plot(kind = 'box', subplots = True, layout = (2, 2), sharey = False)
 plt.show()
 
- 
-In [24]:
-import seaborn as sns
-
-In [25]:
-# relationship between the two attributes ( sepal) for each class
+#Analysis 8
+#Display the relationship between the two attributes (sepal) for each class using a scatter plot graph
 
 sns.set_style('whitegrid')
 sns.FacetGrid(iris_dataset, hue = 'class', size = 6)\
@@ -72,22 +49,24 @@ sns.FacetGrid(iris_dataset, hue = 'class', size = 6)\
 .add_legend()
 plt.show()
  
-In [26]:
-# relationship between the two attributes ( petal) for each class
+#Display the relationship between the two attributes (petal) for each class
 sns.set_style('whitegrid')
 sns.FacetGrid(iris_dataset, hue = 'class', size = 6)\.map(plt.scatter, 'petal-length', 'petal-width')\.add_legend()plt.show()
 
- 
-In [27]:
-# correlation between the attributes
+#Analysis 9
+#Display a correlation matrix to analyse the correlation between each attribute and teh dependency on each other
 plt.figure(figsize=(7,5)) 
-sns.heatmap(iris_dataset.corr(),annot=True,cmap='RdYlGn_r') 
+sns.heatmap(iris_dataset.corr(),annot=True,cmap='RdYlGn_r') #define colours in matrix
 plt.show()
 
- 
-In [31]:
+#Analysis 10 
+#Display a scatter matrix to comprehensively analyse all data
 from pandas.plotting import scatter_matrix
 scatter_matrix(iris_dataset)
 plt.show()
-
  
+#Analysis 11
+#Display a histogram to analyse petal lenth and width as seen in previous scatter plot
+#Histograms
+iris_dataset.hist()
+plt.show()
