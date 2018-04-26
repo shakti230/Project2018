@@ -126,6 +126,10 @@ import required libraries
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
 ![analysis 1](https://user-images.githubusercontent.com/36244887/39323956-13556514-4986-11e8-9a54-df584528423c.JPG)
 
+Displays all rows 150 rows x 5 columns
+![analysis 1 1](https://user-images.githubusercontent.com/36244887/39324063-63b1c106-4986-11e8-8eba-e45eb0d04651.JPG)
+
+
 #### Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
 #### Analysis 3 - Find out the number of rows and columns in the dataset
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
