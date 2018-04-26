@@ -152,6 +152,8 @@ Displays all rows 150 rows x 5 columns
 ![image](https://user-images.githubusercontent.com/36244887/39325553-6e0a5970-498a-11e8-9cb2-1f167c3396b2.png)
 
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
+![image](https://user-images.githubusercontent.com/36244887/39325674-b71aa962-498a-11e8-9257-576e31c0b32f.png)
+
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
 #### Analysis 10 - Display data in histograms to show petal and sepal width and length
