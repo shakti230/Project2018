@@ -11,6 +11,11 @@ Programming and Scripting - Mary McDonagh
 ### 5.1 Why use Python?	
 ## 6.0 Summary of Investigation	
 
+
+
+
+
+
 ## 1.0 Problem statement
 The following project concerns the well-known Fisher’s Iris data set [3]. The project
 entails you researching the data set, and then writing documentation and code in the
@@ -18,12 +23,11 @@ Python programming language [1] based on that research.
 
 ## 1.1 Project Plan
 ![image](https://user-images.githubusercontent.com/36244887/39327184-348b3070-498f-11e8-8b6a-dfc27271ecf2.png)
-Figure 1
+*Figure 1*
 
 
 ## 2.0 Research
-Research background information about the data set and write a summary about
-it.
+Research background information about the data set and write a summary about it.
 
 According to Hoey the Iris Flower Dataset is a popular multivariate dataset that was introduced by R.A. Fisher as an example for discriminant analysis. This data set was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems” as an example of linear discriminant analysis . It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The data set was originally published at UCI Machine Learning Repository: Iris Data Set, this small dataset from 1936 is often used for testing out machine learning algorithms and visualizations. Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters. It is one of the first modern examples of statistical classification.
 
@@ -44,10 +48,13 @@ This data sets consists of 3 different types of irises' (Setosa, Versicolour, an
 The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width. The below plot uses the first two features.
 
 ![image](https://user-images.githubusercontent.com/36244887/39327332-a066064e-498f-11e8-8963-2ebc12a3df8e.png)
+
 Figure 3
 
 ![image](https://user-images.githubusercontent.com/36244887/39330130-82c7a968-4998-11e8-8204-f21892267960.png)
+
 Figure 4
+
 #Code source: Gaël Varoquaux
 #Modified for documentation by Jaques Grobler
 #License: BSD 3 clause
@@ -179,7 +186,7 @@ Figure 16
 ![image](https://user-images.githubusercontent.com/36244887/39326103-e5b8864e-498b-11e8-9136-fddd929b8f85.png)
 Figure 17
 
-#### Analysis 10 - Displat scatter plot matrix to investigate the relationship and dependency
+#### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
 ![image](https://user-images.githubusercontent.com/36244887/39326204-2658892e-498c-11e8-8548-ddc3eded8d62.png)
 Figure 18
 
