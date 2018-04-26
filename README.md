@@ -40,7 +40,7 @@ We can inspect the data in python like this:
 
 This data sets consists of 3 different types of irises' (Setosa, Versicolour, and Virginica) petal and sepal length, stored in a 150x4 numpy.ndarray
 
-The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length	and Petal Width. The below plot uses the first two features.
+The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width. The below plot uses the first two features.
 
 #Code source: Gaël Varoquaux
 #Modified for documentation by Jaques Grobler
@@ -121,15 +121,21 @@ http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
 ## 4. Investigation
 Download the data set and write some Python code to investigate it.
 Download iris data
-Format iris data and print on screen
-Analysis 1 - print out iris data on screen
-Analysis 2 - compile stats using teh describe function
-Analysis 3 - Using labelnames to translate the species names into integers
-Analysis 4 - Import the `pandas` library to displate iris data
-Analysis 5 - using the  describe function allows me to compile summary statistics
-Analysis 6 - calculate the mean
+import required libraries 
+Analysis 1 - print out iris data on screen, display without headers and comma separated
+Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
+Analysis 3 - Find out the number of rows and columns in the dataset
+Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
+Analysis 5 - Group data sets by class size
+Analysis 6 - Use the describe function to describe each class individually
+Analysis 7 - Use a box plot graph to display the sepal and petal length and width
+Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
+Analysis 9 - Plot a matrix to display the correlation between the attributes
+
 
 ## 5. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+
+Analysis 4 above - use the describe function to calculate the mean.
 
 ## 6 Summary of Investigation
