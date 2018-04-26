@@ -172,6 +172,9 @@ Displays all rows 150 rows x 5 columns
 ## 5. Calculations
 Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
 
+![image](https://user-images.githubusercontent.com/36244887/39326435-d817a3de-498c-11e8-9666-dcab21b8576b.png)
+
+
 #### Analysis 4 above - use the describe function to calculate the mean.
 
 ## 6 Summary of Investigation
