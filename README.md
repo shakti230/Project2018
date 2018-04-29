@@ -324,7 +324,7 @@ Theory
 Figure 18 outputs a matrix style graphical display of petal and sepal width and length, their relationship and dependency.
 
 ### Analysis 11 - Display data in histograms to show petal and sepal width and length
-I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution.
+I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution. I used the histogram grapgh to check the frequency distribution.
 
 ## Conclusion
 
