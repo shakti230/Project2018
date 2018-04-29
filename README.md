@@ -142,6 +142,12 @@ Initial steps carried out:
 - Download iris data
 - import required libraries 
 
+Some of the popular libraries used for data visualisation include the following:
+- Matplotlib
+- Seaborn
+- Pandas
+- Plotly
+
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
 
 - See project repository for python code used to run this output.
