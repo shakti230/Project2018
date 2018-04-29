@@ -148,6 +148,9 @@ Some of the popular libraries used for data visualisation include the following:
 - Pandas
 - Plotly
 
+![image](https://user-images.githubusercontent.com/36244887/39406222-0630391e-4bab-11e8-870b-18dad59bb624.png)
+
+
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
 
 - See project repository for python code used to run this output.
