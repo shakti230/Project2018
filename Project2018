@@ -95,3 +95,8 @@ sizes = [50,50,50]
 plt.pie(sizes,labels=labels,explode= (0.1, 0.1, 0.1))
 plt.axis('equal') # to show equal axis
 plt.show
+
+#Analysis 13
+#Display a boxplot for the entire dataset
+sns.boxplot(data= iris_dataset, orient= 'h')
+plt.title("Boxplot for the entire Iris Dataset")
