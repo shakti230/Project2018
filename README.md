@@ -308,8 +308,10 @@ I wanted to calculate some statistics using the iris data which included the cou
 Using the groupby function and the class attribute I defined how many groups of each class in the data set existed. Figure 10 displayed the output of this which is 50 groups in each class.
 
 ### Analysis 6 - Use the describe function to describe each class individually
+As with analysis 4 above, I used the same describe function to display the statistics per class. This outlined the count, mean, stf, min, max and percentages per class.
 
-### Analysis 6 allocates the describe function to to outline the mean, count, min, max and percentages of each class. Figure 11, 12 and 13 show the output of these statistics. 
+### Analysis 6 allocates the describe function to to outline the mean, count, min, max and percentages of each class. 
+Figure 11, 12 and 13 show the output of these statistics. 
 
 ### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Box plots display a five-number summary of a set of data: the median, the two ends of the interquartile range (the box), and two extreme values above and below the box. Because they show less detail than histograms, box plots are most useful for side-by-side comparisons of two distributions. Figure 14 shows this graph.
@@ -327,9 +329,9 @@ Figure 17 displays a correlation matrix.
 (Ref: https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset)
 Diagonal values and upper triangle are ignored.
 This outlines:
-a high positive correlation between Petal Width and Peta lLength (0.96)
-a high positive correlation between PetalLength and SepalLength (0.87)
-a high positive correlation between PetalWidth and SepalLength (0.81)
+- a high positive correlation between Petal Width and Petal Length (0.96)
+- a high positive correlation between Petal Length and Sepal Length (0.87)
+- a high positive correlation between Petal Width and Sepal Length (0.81)
 
 We can observe correlations between these main attributes: Petal Width, Petal Length and Sepal Length:
 
@@ -346,7 +348,7 @@ Figure 18 outputs a matrix style graphical display of petal and sepal width and 
 I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution. I used the histogram grapgh to check the frequency distribution.
 
 ### Analysis 12 - Display data in a pie chart to show 'Setosa', 'Versicolor' and 'Virginica
-A Pie Chart is a type of plot used to represent the proportion of each category in a categorical data. The whole pie is divided into slices which are equal to the number of categories. 
+A pie chart is a type of plot used to represent the proportion of each category in a categorical data. The whole pie is divided into slices which are equal to the number of categories. 
 
 ### Analysis 13 - Display a boxplot for the entire dataset
 It can be observed that all the plots represent the distribution of dataset with four quartiles. In addition, it represents the maximum and minimum value. While the dots outside the plot represent outliers. 
