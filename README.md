@@ -1,6 +1,6 @@
 <p align="center">           
-            <b>Project2018</b><br>
-Programming and Scripting GMIT - Mary McDonagh
+            <h1><b>Project2018</b><br></h1>
+<h2>Programming and Scripting GMIT - Mary McDonagh</h2>
 </br>
 </p>
             
