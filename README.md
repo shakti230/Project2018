@@ -301,7 +301,7 @@ The tops and bottoms of each “box” are the 25th and 75th percentiles of the 
 
 ### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 Two scatter graphs clearly shows the correlation relationship between the 3 classes for both petal and sepal in figure 15 & 16.
-Scatter plots are a basic visualization tool for multivariate data. They are used to identify relationships among variables. One class is linearly separable from the other 2; the latter are not linearly separable from each other.
+Scatter plots are a basic visualization tool for multivariate data. They are used to identify relationships among variables. One class is linearly separable from the other 2; the latter are not linearly separable from each other. We can notice that the relationship between the two variables is linear and positive. 
 
 ### Analysis 9 - Plot a matrix to display the correlation between the attributes
 Figure 17 displays a correlation matrix. 
