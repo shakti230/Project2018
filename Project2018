@@ -87,3 +87,11 @@ plt.show()
 #Histograms
 iris_dataset.hist()
 plt.show()
+
+#Analysis 12
+#Display data in a pie chart
+labels = ['Setosa', 'Versicolor', 'Virginica']
+sizes = [50,50,50]
+plt.pie(sizes,labels=labels,explode= (0.1, 0.1, 0.1))
+plt.axis('equal') # to show equal axis
+plt.show
