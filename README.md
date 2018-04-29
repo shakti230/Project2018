@@ -116,21 +116,21 @@ and the fifth attribute is the predictive attributes which is the class attribut
 
 *List all references used throughout the project.*
 
-http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
-https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
-http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
-http://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
-http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
-http://www.statlab.uni-heidelberg.de/data/iris/
-https://en.wikipedia.org/wiki/Ronald_Fisher
-https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset
-https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
-http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
-https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
-http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
-https://www.kaggle.com/
-https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+- http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
+- https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+- http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+- http://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
+- http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+- http://www.statlab.uni-heidelberg.de/data/iris/
+- https://en.wikipedia.org/wiki/Ronald_Fisher
+- https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset
+- https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
+- http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
+- https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
+- http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
+- https://www.kaggle.com/
+- https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+- https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 
 ## 4. Investigation
@@ -142,43 +142,56 @@ Initial steps carried out:
 - import required libraries 
 
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![analysis 1](https://user-images.githubusercontent.com/36244887/39323956-13556514-4986-11e8-9a54-df584528423c.JPG)
 
 *Figure 5*
 
 Displays all rows 150 rows x 5 columns
 See project repository for python code used to run this output.
+
 ![analysis 1 1](https://user-images.githubusercontent.com/36244887/39324063-63b1c106-4986-11e8-8eba-e45eb0d04651.JPG)
 
 *Figure 6*
 
 #### Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![analysis 2](https://user-images.githubusercontent.com/36244887/39324464-7a7444a8-4987-11e8-86b5-f210aa0c22b7.JPG)
 
 *Figure 7*
 
 #### Analysis 3 - Find out the number of rows and columns in the dataset
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
 
 *Figure 8*
 
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39324990-f355326e-4988-11e8-8672-9c90613c4a0f.png)
 
 *Figure 9*
 
 #### Analysis 5 - Group data sets by class size
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39325169-6acfa91e-4989-11e8-88ba-0dd0d08fedc8.png)
 
 *Figure 10*
 
 #### Analysis 6 - Use the describe function to describe each class individually
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39325318-c91e885a-4989-11e8-9ea6-84d0085cff94.png)
 
 *Figure 11*
@@ -192,13 +205,17 @@ See project repository for python code used to run this output.
 *Figure 13*
 
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39325674-b71aa962-498a-11e8-9257-576e31c0b32f.png)
 
 *Figure 14*
 
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39325898-4dc48716-498b-11e8-9335-aca29a1780ff.png)
 
 *Figure 15*
@@ -208,25 +225,32 @@ See project repository for python code used to run this output.
 *Figure 16*
 
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39326103-e5b8864e-498b-11e8-9136-fddd929b8f85.png)
 
 *Figure 17*
 
 #### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39326204-2658892e-498c-11e8-8548-ddc3eded8d62.png)
 
 *Figure 18*
 
 #### Analysis 11 -  Display data in histograms to show petal and sepal width and length 
-See project repository for python code used to run this output.
+
+- See project repository for python code used to run this output.
+
 ![image](https://user-images.githubusercontent.com/36244887/39326352-9c1f5dc2-498c-11e8-9230-20c28afe2b6d.png)
 
 *Figure 19*
 
 
 ## 5. Calculations
+
 *Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.*
 
 ![image](https://user-images.githubusercontent.com/36244887/39326435-d817a3de-498c-11e8-9666-dcab21b8576b.png)
@@ -277,19 +301,18 @@ a high positive correlation between PetalWidth and SepalLength (0.81)
 We can observe correlations between these main attributes: Petal Width, Petal Length and Sepal Length:
 
 Theory
-1 is total positive linear correlation
-0 is no linear correlation
-−1 is total negative linear correlation
+- 1 is total positive linear correlation
+- 0 is no linear correlation
+- −1 is total negative linear correlation
 
 
 ### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
-
 Figure 18 outputs a matrix style graphical display of petal and sepal width and length, their relationship and dependency.
 
 ### Analysis 11 - Display data in histograms to show petal and sepal width and length
 I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution.
 
-##Conclusion
+## Conclusion
 
 The iris data set is a widely used set of data to analyse. This project has been based on dáta analytics using methods learned throughout our Python module and reseach carried out as part of this analysis. I worked through what I felt was a logical sequence of analysis to initially display the iris data on screen, define the number of rows and groups and then categorise them. In addition I ran a number of graphs to display the data output using box plots, scatter graphs and histograms which allows the data to be easily displayed and interpreted. Finally I calculated the mean, count, min and max values of the iris data set as part of the investigation. 
 
