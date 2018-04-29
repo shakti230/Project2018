@@ -1,6 +1,5 @@
-<p align="center">
-<br>            
-# Project2018
+<p align="center">           
+            <b>Project2018</b><br>
 Programming and Scripting GMIT - Mary McDonagh
 </br>
 </p>
