@@ -1,5 +1,5 @@
 <p align="center">           
-            <h1><b>Project2018</b><br></h1>
+<h1><b>Project2018</b><br></h1>
 <h2>Programming and Scripting GMIT - Mary McDonagh</h2>
 </br>
 </p>
