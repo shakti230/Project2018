@@ -18,7 +18,7 @@ Programming and Scripting GMIT - Mary McDonagh
 
 
 ## 1.0 Problem statement
-The following project concerns the well-known Fisher’s Iris data set [3]. The project entails you researching the data set, and then writing documentation and code in the Python programming language [1] based on that research.
+The following project concerns the well-known Fisher’s Iris data set [3]. The project entails researching the data set, and then writing documentation and code in the Python programming language [1] based on that research.
 
 ## 1.1 Project Plan
 ![image](https://user-images.githubusercontent.com/36244887/39327184-348b3070-498f-11e8-8b6a-dfc27271ecf2.png)
@@ -26,7 +26,7 @@ The following project concerns the well-known Fisher’s Iris data set [3]. The 
 
 
 ## 2.0 Research
-*Research background information about the data set and write a summary about it.*
+*Carry out background research about the data set and write a summary about it.*
 
 According to Hoey the Iris Flower Dataset is a popular multivariate dataset that was introduced by R.A. Fisher as an example for discriminant analysis. This data set was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems” as an example of linear discriminant analysis . It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The data set was originally published at UCI Machine Learning Repository: Iris Data Set, this small dataset from 1936 is often used for testing out machine learning algorithms and visualizations. Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters. It is one of the first modern examples of statistical classification.
 
@@ -128,18 +128,19 @@ https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
 http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
 https://pdfs.semanticscholar.org/b58f/395fd0afa3e309ff108247e03ab6c3f15719.pdf
 http://sci2s.ugr.es/keel/pdf/algorithm/articulo/CORE.pdf
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 https://www.kaggle.com/
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
-
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 
 ## 4. Investigation
 
 *Download the data set and write some Python code to investigate it.*
 
-Download iris data
-import required libraries 
+Initial steps carried out:
+- Download iris data
+- import required libraries 
+
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
 See project repository for python code used to run this output.
 ![analysis 1](https://user-images.githubusercontent.com/36244887/39323956-13556514-4986-11e8-9a54-df584528423c.JPG)
@@ -259,8 +260,10 @@ Using the groupby function and the class attribute I defined how many groups of 
 
 ### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Figure 14 shows this graph.
-Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
+
+### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 Two scatter graphs clearly shows the relationship between the 3 classes for both petal and sepal in figure 15 & 16.
+One class is linearly separable from the other 2; the latter are not linearly separable from each other.
 
 ### Analysis 9 - Plot a matrix to display the correlation between the attributes
 Figure 17 displays a correlation matrix. 
@@ -286,4 +289,9 @@ Figure 18 outputs a matrix style graphical display of petal and sepal width and 
 ### Analysis 11 - Display data in histograms to show petal and sepal width and length
 I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution.
 
+##Conclusion
 
+The iris data set is a widely used set of data to analyse. This project has been based on dáta analytics using methods learned throughout our Python module and reseach carried out as part of this analysis. I worked through what I felt was a logical sequence of analysis to initially display the iris data on screen, define the number of rows and groups and then categorise them. In addition I ran a number of graphs to display the data output using box plots, scatter graphs and histograms which allows the data to be easily displayed and interpreted. Finally I calculated the mean, count, min and max values of the iris data set as part of the investigation. 
+
+From my research on this data I have learned the following:
+The iris data set refers to the length and width of sepal and petal for three northern American species of iris. The iris dataset contains four measurements for 150 flowers representing three species of iris (Iris setosa, versicolor and virginica). This data set consists of 3 different types of irises' (Setosa, Versicolour, and Virginica) petal and sepal length. The IRIS dataset refers to three classes of 50 instances each where each class refers to a type of IRIS plant. 
