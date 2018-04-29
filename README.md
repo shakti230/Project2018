@@ -292,7 +292,7 @@ One class is linearly separable from the other 2; the latter are not linearly se
 ### Analysis 9 - Plot a matrix to display the correlation between the attributes
 Figure 17 displays a correlation matrix. 
 (Ref: https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset)
-Diagonal values and upper triangle are ignored (melted the upper triangle through np.tril and df.where).
+Diagonal values and upper triangle are ignored.
 This outlines:
 a high positive correlation between Petal Width and Peta lLength (0.96)
 a high positive correlation between PetalLength and SepalLength (0.87)
