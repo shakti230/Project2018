@@ -1,6 +1,8 @@
+<p align="center">
 # Project2018
 Programming and Scripting GMIT - Mary McDonagh
-
+</p>
+            
 ## Table of Contents
 ## 1.0 Problem statement	
 ### 1.1 Project Plan	
