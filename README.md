@@ -131,6 +131,7 @@ and the fifth attribute is the predictive attributes which is the class attribut
 - https://www.kaggle.com/
 - https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+- http://www.scs2.net/next/files/courses/stats/session3.pdf
 
 
 ## 4. Investigation
@@ -283,11 +284,11 @@ Using the groupby function and the class attribute I defined how many groups of 
 ### Analysis 6 allocates the describe function to to outline the mean, count, min, max and percentages of each class. Figure 11, 12 and 13 show the output of these statistics. 
 
 ### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
-I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Figure 14 shows this graph.
+I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Box plots display a five-number summary of a set of data: the median, the two ends of the interquartile range (the box), and two extreme values above and below the box. Because they show less detail than histograms, box plots are most useful for side-by-side comparisons of two distributions. Figure 14 shows this graph.
 
 ### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 Two scatter graphs clearly shows the relationship between the 3 classes for both petal and sepal in figure 15 & 16.
-One class is linearly separable from the other 2; the latter are not linearly separable from each other.
+Scatter plots are a basic visualization tool for multivariate data. They are used to identify relationships among variables. One class is linearly separable from the other 2; the latter are not linearly separable from each other.
 
 ### Analysis 9 - Plot a matrix to display the correlation between the attributes
 Figure 17 displays a correlation matrix. 
