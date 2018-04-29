@@ -262,6 +262,8 @@ See project repository for python code used to run this output.
 
 - See project repository for python code used to run this output.
 
+![image](https://user-images.githubusercontent.com/36244887/39406445-a8a67eee-4bae-11e8-9f93-8417dc983a82.png)
+
 
 *Figure 19*
 
@@ -331,6 +333,9 @@ Figure 18 outputs a matrix style graphical display of petal and sepal width and 
 
 ### Analysis 11 - Display data in histograms to show petal and sepal width and length
 I used the same data which was previously displayed in scatter and box graphs to display in a histogram output. Petal length and petal width seem to diverge from the normal distribution. I used the histogram grapgh to check the frequency distribution.
+
+### Analysis 12 - Display data in a pie chart to show 'Setosa', 'Versicolor' and 'Virginica
+A Pie Chart is a type of plot used to represent the proportion of each category in a categorical data. The whole pie is divided into slices which are equal to the number of categories. 
 
 ## Conclusion
 
