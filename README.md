@@ -286,6 +286,10 @@ Using the groupby function and the class attribute I defined how many groups of 
 ### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
 I have used a box plot graph to display the sepal/petal length and width. All of the data from the describe function earlier used can be seen in this graphical output. Box plots display a five-number summary of a set of data: the median, the two ends of the interquartile range (the box), and two extreme values above and below the box. Because they show less detail than histograms, box plots are most useful for side-by-side comparisons of two distributions. Figure 14 shows this graph.
 
+The tops and bottoms of each “box” are the 25th and 75th percentiles of the samples (the first and third quartile). The distances between the tops and bottoms are the interquartile ranges.
+- The line in the middle of each box is the sample median. If the median is not centered in the box, it shows sample skewness.
+- The whiskers are lines extending above and below each box. Whiskers are drawn from the ends of the interquartile ranges to the furthest observations within the whisker length (the adjacent values).
+
 ### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
 Two scatter graphs clearly shows the correlation relationship between the 3 classes for both petal and sepal in figure 15 & 16.
 Scatter plots are a basic visualization tool for multivariate data. They are used to identify relationships among variables. One class is linearly separable from the other 2; the latter are not linearly separable from each other.
