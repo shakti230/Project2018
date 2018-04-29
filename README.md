@@ -1,5 +1,5 @@
 # Project2018
-Programming and Scripting - Mary McDonagh
+Programming and Scripting GMIT - Mary McDonagh
 
 ## Table of Contents
 ## 1.0 Problem statement	
@@ -10,6 +10,7 @@ Programming and Scripting - Mary McDonagh
 ## 5.0 Calculations	
 ### 5.1 Why use Python?	
 ## 6.0 Summary of Investigation	
+## 7.0 Conclusion
 
 
 
@@ -17,9 +18,7 @@ Programming and Scripting - Mary McDonagh
 
 
 ## 1.0 Problem statement
-The following project concerns the well-known Fisher’s Iris data set [3]. The project
-entails you researching the data set, and then writing documentation and code in the
-Python programming language [1] based on that research.
+The following project concerns the well-known Fisher’s Iris data set [3]. The project entails you researching the data set, and then writing documentation and code in the Python programming language [1] based on that research.
 
 ## 1.1 Project Plan
 ![image](https://user-images.githubusercontent.com/36244887/39327184-348b3070-498f-11e8-8b6a-dfc27271ecf2.png)
@@ -27,7 +26,7 @@ Python programming language [1] based on that research.
 
 
 ## 2.0 Research
-Research background information about the data set and write a summary about it.
+*Research background information about the data set and write a summary about it.*
 
 According to Hoey the Iris Flower Dataset is a popular multivariate dataset that was introduced by R.A. Fisher as an example for discriminant analysis. This data set was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems” as an example of linear discriminant analysis . It is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The data set was originally published at UCI Machine Learning Repository: Iris Data Set, this small dataset from 1936 is often used for testing out machine learning algorithms and visualizations. Each row of the table represents an iris flower, including its species and dimensions of its botanical parts, sepal and petal, in centimeters. It is one of the first modern examples of statistical classification.
 
@@ -115,6 +114,8 @@ and the fifth attribute is the predictive attributes which is the class attribut
 
 ## 3. References
 
+*List all references used throughout the project.*
+
 http://airccse.org/journal/ijsc/papers/2112ijsc07.pdf
 https://www.idosi.org/wasj/wasj29(dmsct)14/5.pdf
 http://www.ijrdet.com/files/Volume3Issue2/IJRDET_0814_13.pdf
@@ -134,40 +135,49 @@ https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
 
 ## 4. Investigation
-Download the data set and write some Python code to investigate it.
+
+*Download the data set and write some Python code to investigate it.*
+
 Download iris data
 import required libraries 
 #### Analysis 1 - print out iris data on screen, display without headers and comma separated
+See project repository for python code used to run this output.
 ![analysis 1](https://user-images.githubusercontent.com/36244887/39323956-13556514-4986-11e8-9a54-df584528423c.JPG)
 
 *Figure 5*
 
 Displays all rows 150 rows x 5 columns
+See project repository for python code used to run this output.
 ![analysis 1 1](https://user-images.githubusercontent.com/36244887/39324063-63b1c106-4986-11e8-8eba-e45eb0d04651.JPG)
 
 *Figure 6*
 
 #### Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
+See project repository for python code used to run this output.
 ![analysis 2](https://user-images.githubusercontent.com/36244887/39324464-7a7444a8-4987-11e8-86b5-f210aa0c22b7.JPG)
 
 *Figure 7*
 
 #### Analysis 3 - Find out the number of rows and columns in the dataset
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
 
 *Figure 8*
 
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39324990-f355326e-4988-11e8-8672-9c90613c4a0f.png)
 
 *Figure 9*
 
 #### Analysis 5 - Group data sets by class size
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39325169-6acfa91e-4989-11e8-88ba-0dd0d08fedc8.png)
 
 *Figure 10*
 
 #### Analysis 6 - Use the describe function to describe each class individually
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39325318-c91e885a-4989-11e8-9ea6-84d0085cff94.png)
 
 *Figure 11*
@@ -181,11 +191,13 @@ Displays all rows 150 rows x 5 columns
 *Figure 13*
 
 #### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39325674-b71aa962-498a-11e8-9257-576e31c0b32f.png)
 
 *Figure 14*
 
 #### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39325898-4dc48716-498b-11e8-9335-aca29a1780ff.png)
 
 *Figure 15*
@@ -195,23 +207,26 @@ Displays all rows 150 rows x 5 columns
 *Figure 16*
 
 #### Analysis 9 - Plot a matrix to display the correlation between the attributes
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39326103-e5b8864e-498b-11e8-9136-fddd929b8f85.png)
 
 *Figure 17*
 
 #### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39326204-2658892e-498c-11e8-8548-ddc3eded8d62.png)
 
 *Figure 18*
 
 #### Analysis 11 -  Display data in histograms to show petal and sepal width and length 
+See project repository for python code used to run this output.
 ![image](https://user-images.githubusercontent.com/36244887/39326352-9c1f5dc2-498c-11e8-9230-20c28afe2b6d.png)
 
 *Figure 19*
 
 
 ## 5. Calculations
-Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+*Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.*
 
 ![image](https://user-images.githubusercontent.com/36244887/39326435-d817a3de-498c-11e8-9666-dcab21b8576b.png)
 
