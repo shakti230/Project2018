@@ -132,6 +132,7 @@ and the fifth attribute is the predictive attributes which is the class attribut
 - https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 - http://www.scs2.net/next/files/courses/stats/session3.pdf
+- https://www.digitalvidya.com/blog/popular-types-of-data-visualizations/
 
 
 ## 4. Investigation
@@ -267,13 +268,21 @@ See project repository for python code used to run this output.
 
 *Figure 19*
 
+#### Analysis 13 - Boxplot for the entire dataset
+
+- See project repository for python code used to run this output.
+
+![image](https://user-images.githubusercontent.com/36244887/39406497-796d2820-4baf-11e8-8df3-34b8cf448096.png)
+
+*Figure 20*
+
 ## 5. Calculations
 
 *Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.*
 
 ![image](https://user-images.githubusercontent.com/36244887/39326435-d817a3de-498c-11e8-9666-dcab21b8576b.png)
 
-*Figure 21*
+*Figure 22*
 
 #### Analysis 4 above - use the describe function to calculate the mean.
 
@@ -336,6 +345,9 @@ I used the same data which was previously displayed in scatter and box graphs to
 
 ### Analysis 12 - Display data in a pie chart to show 'Setosa', 'Versicolor' and 'Virginica
 A Pie Chart is a type of plot used to represent the proportion of each category in a categorical data. The whole pie is divided into slices which are equal to the number of categories. 
+
+### Analysis 13 - Display a boxplot for the entire dataset
+It can be observed that all the plots represent the distribution of dataset with four quartiles. In addition, it represents the maximum and minimum value. While the dots outside the plot represent outliers. 
 
 ## Conclusion
 
