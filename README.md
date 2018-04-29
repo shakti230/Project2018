@@ -148,6 +148,7 @@ Some of the popular libraries used for data visualisation include the following:
 - Pandas
 - Plotly
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/36244887/39406222-0630391e-4bab-11e8-870b-18dad59bb624.png)
 
 
