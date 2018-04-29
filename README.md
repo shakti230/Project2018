@@ -155,7 +155,7 @@ Some of the popular libraries used for data visualisation include the following:
 <p align="center">
 
 ### Analysis 1 
-Print out the Iris data on screen, display without headers and comma separated
+Print out the Iris data on screen, display without headers and comma separated.
 
 - See project repository for python code used to run this output.
 
@@ -163,14 +163,15 @@ Print out the Iris data on screen, display without headers and comma separated
 
 *Figure 5*
 
-Displays all rows 150 rows x 5 columns
+Displays all rows 150 rows x 5 columns.
 See project repository for python code used to run this output.
 
 ![analysis 1 1](https://user-images.githubusercontent.com/36244887/39324063-63b1c106-4986-11e8-8eba-e45eb0d04651.JPG)
 
 *Figure 6*
 
-#### Analysis 2 - Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'
+### Analysis 2 
+Assign column names to the data set using class - sepal-length', 'sepal-width', 'petal-length', 'petal-width'.
 
 - See project repository for python code used to run this output.
 
@@ -178,14 +179,16 @@ See project repository for python code used to run this output.
 
 *Figure 7*
 
-#### Analysis 3 - Find out the number of rows and columns in the dataset
+### Analysis 3  
+Find out the number of rows and columns in the dataset.
 
 - See project repository for python code used to run this output.
 
 ![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
 *Figure 8*
 
-#### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
+### Analysis 4 
+Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages.
 
 - See project repository for python code used to run this output.
 
@@ -193,7 +196,8 @@ See project repository for python code used to run this output.
 
 *Figure 9*
 
-#### Analysis 5 - Group data sets by class size
+### Analysis 5
+Group data sets by class size.
 
 - See project repository for python code used to run this output.
 
@@ -201,7 +205,8 @@ See project repository for python code used to run this output.
 
 *Figure 10*
 
-#### Analysis 6 - Use the describe function to describe each class individually
+### Analysis 6
+Use the describe function to describe each class individually.
 
 - See project repository for python code used to run this output.
 
@@ -217,7 +222,8 @@ See project repository for python code used to run this output.
 
 *Figure 13*
 
-#### Analysis 7 - Use a box plot graph to display the sepal and petal length and width
+### Analysis 7 
+Use a box plot graph to display the sepal and petal length and width.
 
 - See project repository for python code used to run this output.
 
@@ -225,7 +231,8 @@ See project repository for python code used to run this output.
 
 *Figure 14*
 
-#### Analysis 8 - Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal)
+### Analysis 8 
+Using the seaborn library display a scatter graph to find the relationship between each class (sepal and petal).
 
 - See project repository for python code used to run this output.
 
@@ -237,7 +244,8 @@ See project repository for python code used to run this output.
 
 *Figure 16*
 
-#### Analysis 9 - Plot a matrix to display the correlation between the attributes
+### Analysis 9 
+Plot a matrix to display the correlation between the attributes.
 
 - See project repository for python code used to run this output.
 
@@ -245,7 +253,8 @@ See project repository for python code used to run this output.
 
 *Figure 17*
 
-#### Analysis 10 - Display scatter plot matrix to investigate the relationship and dependency
+### Analysis 10 
+Display scatter plot matrix to investigate the relationship and dependency.
 
 - See project repository for python code used to run this output.
 
@@ -253,7 +262,8 @@ See project repository for python code used to run this output.
 
 *Figure 18*
 
-#### Analysis 11 -  Display data in histograms to show petal and sepal width and length 
+### Analysis 11
+Display data in histograms to show petal and sepal width and length. 
 
 - See project repository for python code used to run this output.
 
@@ -261,7 +271,8 @@ See project repository for python code used to run this output.
 
 *Figure 19*
 
-#### Analysis 12 - Display data in a pie chart
+### Analysis 12 
+Display data in a pie chart.
 
 - See project repository for python code used to run this output.
 
@@ -270,7 +281,8 @@ See project repository for python code used to run this output.
 
 *Figure 19*
 
-#### Analysis 13 - Boxplot for the entire dataset
+### Analysis 13 
+Display a boxplot for the entire dataset.
 
 - See project repository for python code used to run this output.
 
@@ -286,14 +298,14 @@ See project repository for python code used to run this output.
 
 *Figure 22*
 
-#### Analysis 4 above - use the describe function to calculate the mean.
+### Analysis 4 above - use the describe function to calculate the mean.
 
 ## 6 Summary of Investigation
 
 I downloaded the iris data set to allow me to carry out the following analysis:
 
 ### Analysis 1 - print out iris data on screen, display without headers and comma separated
-Upon downloading the iris data set I ran the file using python to display the data as comma separated in columns and rows on screen. I imported the panda library and ran the command for python to read the file and output the data. It also confirmed on the total number of rows and columns - 150 rows x 5 columns. I called the data file to open by defining the URL to where the file was saved at the beginning of the code.
+Upon downloading the iris data set I ran the file using python to display the data as comma separated in columns and rows on screen. I imported the panda library and ran the command for python to read the file and output the data. It also confirmed on the total number of rows and columns - 150 rows x 5 columns. I called the data file to open by defining the absolute URL to where the file was saved at the beginning of the code.
 
 ### Analysis 2 - Assign column names to the data set using the column function - sepal-length', 'sepal-width', 'petal-length', 'petal-width'.
 I defined the data file name iris_dataset and used the columns function to name all 5 columns in the file. The output can be seen in Figure 7. 
