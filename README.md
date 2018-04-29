@@ -258,6 +258,12 @@ See project repository for python code used to run this output.
 
 *Figure 19*
 
+#### Analysis 12 - Display data in a pie chart
+
+- See project repository for python code used to run this output.
+
+
+*Figure 19*
 
 ## 5. Calculations
 
@@ -265,7 +271,7 @@ See project repository for python code used to run this output.
 
 ![image](https://user-images.githubusercontent.com/36244887/39326435-d817a3de-498c-11e8-9666-dcab21b8576b.png)
 
-*Figure 20*
+*Figure 21*
 
 #### Analysis 4 above - use the describe function to calculate the mean.
 
