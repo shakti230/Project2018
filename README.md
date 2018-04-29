@@ -182,7 +182,6 @@ See project repository for python code used to run this output.
 - See project repository for python code used to run this output.
 
 ![image](https://user-images.githubusercontent.com/36244887/39324632-e3bc87ea-4987-11e8-9a09-c81b1b42156a.png)
-
 *Figure 8*
 
 #### Analysis 4 - Using the  describe function allows me to compile summary statistics such as mean, count, min, max and percentages
