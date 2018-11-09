@@ -4,7 +4,7 @@
 </br>
 </p>
             
-## Table of Contents
+### Table of Contents
 ## 1.0 Problem statement	
 ### 1.1 Project Plan	
 ## 2.0 Research	
